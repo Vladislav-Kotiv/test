@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/google-auth-library@8.8.0/build/src/transporters.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="head">
+            <div class="rectangle"></div>
+          
+        
+    <div class="container">
+        <div id="buttons" class="tab">
+
+            <div id="main" class="tab1">Групи</div>
+            
+        </div>
+
+    </div>
+
+    <div id="body-buttons" class="body-buttons">
+        <div id="import" class="tab3">Імпорт</div>
+        <div id="export" class="tab3-1">Експорт</div>
+    </div>
+    </div>
+</div>
+    <div id="journal" class="journal">
+    <div id="Sort" class="Sort">
+        <div class="AllSort">
+        <div class="ToUp">
+            ↑
+        </div>
+        <div class="ToUp">
+            ↓
+        </div>
+    </div>
+    </div>
+            <div id="groupsContainer">
+                
+                <div id="coursesContainer">
+                    
+                </div>
+           
+            
+        </div>
+        
+        
+        
+        <button id="add-button" class="plus-button">+</button>
+<!-- Модальне вікно -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Створення групи</h2>
+      <input type="text" id="groupNameInput" placeholder="Назва групи">
+      <h3>Виберіть курси:</h3>
+      <div id="coursesContainer"></div>
+      <button id="saveButton">Зберегти</button>
+    </div>
+  </div>
+
+  
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="export.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="classroom.js"></script>
+    
+</body>
+</html>
